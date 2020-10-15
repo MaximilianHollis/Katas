@@ -11,7 +11,7 @@ function digital_root(n) {
   }
 
 
-//alternate solution
+//alternate aka better solution
 function digital_root(n) {
   //realize that its finding the remainder of n mod 9
   return (n - 1) % 9 + 1;
